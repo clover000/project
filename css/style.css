@@ -204,35 +204,35 @@ footer {
 
 .page01kv {
     width: 100%;
-    background-image: url(../img/dividend-kv.jpg);
+    background-image: url(../img/work01-kv.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .page02kv {
     width: 100%;
-    background-image: url(../img/proposal-kv.jpg);
+    background-image: url(../img/work02-kv.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .page03kv {
     width: 100%;
-    background-image: url(../img/gym-kv.jpg);
+    background-image: url(../img/work03-kv.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .page04kv {
     width: 100%;
-    background-image: url(../img/deer-kv.jpg);
+    background-image: url(../img/work04-kv.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .page05kv {
     width: 100%;
-    background-image: url(../img/travel-kv.jpg);
+    background-image: url(../img/work05-kv.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -793,35 +793,35 @@ span {
 
     .page01kv {
         width: 100%;
-        background-image: url(../img/dividend-kv-t.jpg);
+        background-image: url(../img/work01-kv-t.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .page02kv {
         width: 100%;
-        background-image: url(../img/proposal-kv-t.jpg);
+        background-image: url(../img/work02-kv-t.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .page03kv {
         width: 100%;
-        background-image: url(../img/gym-kv-t.jpg);
+        background-image: url(../img/work03-kv-t.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .page04kv {
         width: 100%;
-        background-image: url(../img/deer-kv-t.jpg);
+        background-image: url(../img/work04-kv-t.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .page05kv {
         width: 100%;
-        background-image: url(../img/travel-kv-t.jpg);
+        background-image: url(../img/work05-kv-t.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -1075,28 +1075,28 @@ span {
 
     .page02kv {
         width: 100%;
-        background-image: url(../img/proposal-kv-m.jpg);
+        background-image: url(../img/work02-kv-m.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .page03kv {
         width: 100%;
-        background-image: url(../img/gym-kv-m.jpg);
+        background-image: url(../img/work03-kv-m.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .page04kv {
         width: 100%;
-        background-image: url(../img/deer-kv-m.jpg);
+        background-image: url(../img/work04-kv-m.jpg);
         background-size: cover;
         background-position: center;
     }
 
     .page05kv {
         width: 100%;
-        background-image: url(../img/travel-kv-m.jpg);
+        background-image: url(../img/work05-kv-m.jpg);
         background-size: cover;
         background-position: center;
     }
