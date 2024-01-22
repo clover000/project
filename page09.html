@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <title>德銀遠東投信基金動畫</title>
+</head>
+
+<body>
+  <a href="">
+    <div id="gotop">top</div>
+  </a>
+  <div class="container">
+    <div class="bg-add4dd">
+        <a href="index.html">
+            <div class="hometop"></div>
+            <span class="fw-bold">HOME</span>
+        </a>
+        <div class="text-center pxy-120 fs-40 fw-bold">德銀遠東投信基金動畫
+            <a href="https://www.youtube.com/watch?v=FmKJBBLdeB0&ab_channel=Aborderbetweenwealthandfund " target="_blank">
+                <div class="link">連結</div>
+            </a>
+        </div>
+    </div>
+    <div class="">
+        <div class="chapter pt-40" data-aos="fade-right" data-aos-delay="100">
+            <div class="fs-24 py-8 fw-bold">專案角色</div>
+            <div class="fs-18 ">動態/畫面設計</div>
+        </div>
+        <div class="chapter pt-40" data-aos="fade-right" data-aos-delay="200">
+          <div class="fs-24 py-8 fw-bold">影片時間</div>
+          <div class="fs-18 ">1分48秒</div>
+      </div>
+        <div class="chapter  pt-40 pb-140" data-aos="fade-right" data-aos-delay="300">
+            <div class="fs-24 fw-bold">設計理念</div>
+            <div class="fs-18 ">故事發想以打敗通膨怪獸為主軸的小故事，藉由日常生活中最有感的物價上漲的認知來切入主題，想要打敗通膨就需要動起來，並運用淺顯易懂的文字介紹此檔基金的特色。</div>
+        </div>
+
+        <div class="bg-add4dd">
+            <div class="box">
+                <div class="linetext-web"  data-aos="fade-up" data-aos-delay="400">Animation</div>
+                <div class="linetext-webdesign stroke"  data-aos="fade-down" data-aos-delay="400">Animation</div>
+            </div>
+
+            <div class="view" data-aos="fade-up" data-aos-delay="500">
+                <div><img src="img/work09-01.png" alt="" data-aos="fade-up"></div>
+                <div><img src="img/work09-02.png" alt="" data-aos="fade-up"></div>
+            </div>
+            <div class="list"> 
+                <a href="page08.html" ><div class="list-right">上一個作品</div></a>
+                <a href="page09.html"><div class="list-no"></div></a>
+            </div>
+        </div>
+    </div>
+    <footer class="gradient">
+        <div class="thankyou"></div>
+    </footer>
+</div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+  $(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function () {
+      $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+      return false;
+    });
+
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 200) {
+        $('#gotop').fadeIn();
+      } else {
+        $('#gotop').fadeOut();
+      }
+    });
+  });
+
+</script>
+<script>
+  //一般呼叫
+  $(function () {
+    AOS.init();
+  })
+  //自定參數呼叫
+  $(function () {
+    AOS.init({
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  })
+</script>
+
+</html>

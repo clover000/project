@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <title>IP/貼圖/插圖</title>
+</head>
+
+<body>
+    <a href=""><div id="gotop">top</div></a>
+    <div class="container">
+        <div class="bg-ffdfcf">
+            <a href="index.html">
+                <div class="hometop"></div>
+                <span class="fw-bold">HOME</span>
+            </a>
+            <div class="text-center pxy-120 fs-40 fw-bold">IP/貼圖/插圖
+                <div class="nolink">連結</div>
+            </div>
+           
+        </div>
+        <div class="">
+
+            <div class="bg-ffb697">
+                <div class="view pt-60">
+                    <div><img src="img/ip-01.png" alt="" data-aos="fade-up" data-aos-delay="100"></div>
+                    <div><img src="img/ip-02.png" alt="" data-aos="fade-right" ></div>
+                    <div><img src="img/ip-03.png" alt="" data-aos="fade-left" ></div>
+                    <div><img src="img/ip-04.png" alt="" data-aos="fade-up" ></div>
+                </div>
+                <div class="list"> 
+                    <a href="page05.html" ><div class="list-right">上一個作品</div></a>
+                    <a href="page07.html"><div class="list-left">下一個作品</div></a>
+                </div>
+        </div>
+        <footer class="gradient">
+            <div class="thankyou"></div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+  $(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function () {
+      $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+      return false;
+    });
+
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 200) {
+        $('#gotop').fadeIn();
+      } else {
+        $('#gotop').fadeOut();
+      }
+    });
+  });
+
+</script>
+<script>
+  //一般呼叫
+  $(function () {
+    AOS.init();
+  })
+  //自定參數呼叫
+  $(function () {
+    AOS.init({
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  })
+</script>
+</html>
