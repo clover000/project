@@ -18,15 +18,30 @@
 
 
 <body>
-<SCRIPT LANGUAGE="JavaScript">
-
-var password = ''
-password=prompt('輸入密碼:','');
-if (password != null) {
-location.href= password + ".html";
-}
-
-</SCRIPT>
+  <script>
+    function testEncode(form) {
+      seed = 1;
+      newStr = encode(form.passwordField.value, seed)
+      document.location = newStr + ".html"
+    }
+    function encode(inStr, seed) {
+      seed = parseInt(seed);
+      var char, index, newIndex, outStr = "";
+      var refStr = "0000";
+      for (var i = 0; i < inStr.length; i++) {
+        char = inStr.substring(i, i + 1)
+        index = refStr.indexOf(char)
+        newIndex = index ^ seed;		// ^: bitwise xor operator
+        outStr += refStr.substring(newIndex, newIndex + 1);
+      }
+      return (outStr)
+    }
+  </script>
+  <form NAME="testform" onSubmit=false;>
+    請輸入密碼：<input type="password" name="passwordField">
+    <input type="button" name="button" Value="確定" onClick="testEncode(this.form)">
+    <font color=white>0000</font>
+  </form>
 
   <!-- Optional JavaScript; choose one of the two! -->
 
