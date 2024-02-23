@@ -24,7 +24,7 @@
   function encode(inStr, seed){
     seed = parseInt(seed);
     var char, index, newIndex, outStr="";
-    var refStr="0123456789abcdefghijklmnopqrstuvwxyz._~ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    var refStr="0000";
     for (var i=0; i<inStr.length; i++) {
       char = inStr.substring(i, i+1)
       index = refStr.indexOf(char)
@@ -33,6 +33,7 @@
     }
     return (outStr)
   }
+  
   </script>
 
 <body>
