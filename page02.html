@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    <title>創業建議書</title>
+</head>
+
+<body >
+    <a href=""><div id="gotop">top</div></a>
+    <div class="container">
+        <div class="page02kv">
+            <a href="0000.html">
+                <div class="hometop"></div>
+                <span class="fw-bold">HOME</span>
+            </a>
+            <div class="text-center pxy-120 fs-40 fw-bold">創業建議書
+                <div class="nolink">連結</div>
+            </div>
+        </div>
+        <div class="">
+            <div class="chapter pt-40" data-aos="fade-right" data-aos-delay="100">
+                <div class="fs-24 py-8 fw-bold" >專案角色</div>
+                <div class="fs-18 ">UI設計</div>
+            </div>
+            <div class="chapter  pt-40" data-aos="fade-right" data-aos-delay="200">
+                <div class="fs-24 py-8 fw-bold">專案目的</div>
+                <div class="fs-18 ">創業建議書主要是幫助已加入富邦業務同仁各職級晉升收入試算，業務主管面對面輔導，定期晉升目標盤點追蹤使用。</div>
+            </div>
+            <div class="chapter  pt-40" data-aos="fade-right" data-aos-delay="300">
+                <div class="fs-24 py-8 fw-bold">資訊架構</div>
+                <div><img src="img/proposal-01.png" alt=""></div>
+            </div>
+            <div class="chapter pb-140" data-aos="fade-right" data-aos-delay="400">
+                <div class="fs-24 py-8 fw-bold">色彩計畫</div>
+                <div class="colorplan ">
+                    <div class="rgb01"><div class="rgbtext">#333333</div></div>
+                    <div class="rgb06"><div class="rgbtext">#06B1AD<br>#0089D1</div></div>
+                    <div class="rgb07"><div class="rgbtext">#F98B1C</div></div>
+                </div>
+            </div>
+            <div class="bg-add4dd">
+                <div class="box">
+                    <div class="line-text" data-aos="fade-down" data-aos-delay="500">UI DESIGN</div>
+                    <div class="line-text-design stroke" data-aos="fade-up" data-aos-delay="600">UI DESIGN</div>
+                </div>
+
+                <div class="view">
+                    <div class="fs-24 py-8 fw-bold" data-aos="fade-right" data-aos-delay="700">頁面呈現</div>
+                    <img src="img/proposal-03.png" alt="" data-aos="fade-up" data-aos-delay="700">
+                    <div class="pagebox">
+                        <div class="pagetext" data-aos="fade-right" data-aos-delay="800">
+                            <div class="fs-44 fw-bold"><img src="img/01.svg" alt="" class="number"><br>提供不同職等績效試算</div>
+                            <div class="word">目前提供五種職等選擇</div>
+                            <div class="word">直覺快速套用樣板</div>
+                        </div>     
+                        <div class="pagepic" data-aos="fade-left" data-aos-delay="800"><img src="img/proposal-04.jpg" alt=""></div>                   
+                    </div>
+                    <div class="pagebox pagebox-change">
+                        <div class="pagetext" data-aos="fade-right" data-aos-delay="900">
+                            <div class="fs-44 fw-bold"><img src="img/02.svg" alt="" class="number"><br>同步套用設定數值</div>
+                            <div class="word">輸入數值即可快速試算</div>
+                            <div class="word">各職等績效目標圖表</div>
+                        </div>    
+                        <div class="pagepic" data-aos="fade-left" data-aos-delay="900"><img src="img/proposal-05.jpg" alt=""></div>                    
+                    </div>
+                    <div class="pagebox">
+                        <div class="pagetext" data-aos="fade-right" data-aos-delay="1000">
+                            <div class="fs-44 fw-bold"><img src="img/03.svg" alt="" class="number"><br>客製化編輯並產出PDF</div>
+                            <div class="word">建議書任意編輯及調整</div>
+                            <div class="word">產出PDF檔供下載列印</div>
+                        </div>  
+                        <div class="pagepic" data-aos="fade-left" data-aos-delay="1000"><img src="img/proposal-06.jpg" alt=""></div> 
+                    </div>                    
+                </div>
+                <div class="list"> 
+                    <a href="page01.html" ><div class="list-right">上一個作品</div></a>
+                    <a href="page03.html"><div class="list-left">下一個作品</div></a>
+                </div>
+            </div>
+        </div>
+        <footer class="gradient">
+            <div class="thankyou"></div>
+        </footer>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+  $(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function () {
+      $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+      return false;
+    });
+
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 200) {
+        $('#gotop').fadeIn();
+      } else {
+        $('#gotop').fadeOut();
+      }
+    });
+  });
+
+</script>
+<script>
+  //一般呼叫
+  $(function () {
+    AOS.init();
+  })
+  //自定參數呼叫
+  $(function () {
+    AOS.init({
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  })
+</script>
+</html>
