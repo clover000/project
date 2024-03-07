@@ -772,7 +772,11 @@ span {
         width: 100%;
         padding: 20px 0px;
     }
-
+    dotlottie-player {
+        width: 250px;
+        height: 400px;
+        margin: 0 auto;
+    }
 }
 
 
