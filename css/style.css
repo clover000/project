@@ -652,6 +652,9 @@ span {
     .area-article  {
         padding: 100px 0px;
     }
+    .tagtext{
+        font-size: 14px;
+    }
 
 }
 
