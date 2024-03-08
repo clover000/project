@@ -90,7 +90,7 @@ img {
 
 .area-photo {
     font-size: 18px;
-    padding: 160px;
+    padding: 160px 50px;
     color: #271b1d;
     line-height: 28px;
 }
@@ -146,7 +146,12 @@ dotlottie-player {
     /* border-top: 5px solid #333333; */
     filter: drop-shadow(0 -2mm 2mm #9e9e9e);
 }
-
+.areakv{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
 .area {
     width: 80%;
     margin: 0 auto;
@@ -645,13 +650,18 @@ span {
     }
 
     .area-photo {
-        padding: 200px 50px;
+        padding: 160px 50px;
 
     }
-
-    .area-article  {
+    .areakv {
+        width: 75%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* .area-article  {
         padding: 70px 0px;
-    }
+    } */
     .tagtext{
         font-size: 12px;
     }
@@ -759,7 +769,7 @@ span {
     }
 
     .area-photo {
-        padding: 160px 40px;
+        padding: 120px 40px;
         width: 100%;
 
     }
@@ -879,7 +889,11 @@ span {
         line-height: 60px;
         padding-bottom: 16px;
     }
-
+    .areakv{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
     .area {
         display: block;
     }
