@@ -3,7 +3,7 @@
 * {
     font-family: 'Noto Sans TC', '微軟正黑體';
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
     list-style: none;
 }
 
@@ -83,9 +83,17 @@ img {
 }
 
 .btn {
-    border: 1px solid #000;
+    border: 1px solid #add4dd;
     padding: 4px 12px;
-    border-radius: 4px;
+    border-radius: 24px;
+    background:#000000;
+    color: #ffffff;
+    font-size: 18px;
+    margin: 20px ;
+}
+.btn:hover{
+    background:linear-gradient(45deg, #04C2D3, #9C60E2);
+    color: #ffffff;
 }
 
 .area-photo {
