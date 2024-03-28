@@ -47,7 +47,9 @@
 .fw-900 {
     font-weight: 900;
 }
-
+.pt-10 {
+    padding-top: 10px;
+}
 .pt-20 {
     padding-top: 20px;
 }
