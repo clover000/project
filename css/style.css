@@ -263,6 +263,12 @@ footer {
     background-position: center;
     padding-top: 70px;
   }
+  .line {
+    border-right: 2px solid #dddddd;
+    border-left: 2px solid #dddddd;
+    border-top: none;
+    border-bottom: none;
+  }
 
 
 }
