@@ -153,7 +153,8 @@ li img {
 .work {
     position: relative;
     bottom: 200px;
-    top: 0;
+    top: -100px;
+    margin-bottom: -100px;
 }
 
 .workbg {
