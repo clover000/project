@@ -409,7 +409,7 @@ footer {
 @media (max-width: 1200px) {
     .kv {
         width: 80%;
-        height: 360px;
+       
     }
 
     .kvtextbox {
@@ -425,12 +425,12 @@ footer {
     .circle-blue2 {
         top: -6%;
         width: 40%;
-        right: -12%;
+        right: -8%;
     }
 
     .circle-red {
         top: 58%;
-        left: 60%;
+        left: 44%;
     }
 
     .item {
@@ -461,12 +461,8 @@ footer {
     }
 
     .circle-red {
-        left: 62%;
-        top: 54%;
-    }
-
-    .work {
-        bottom: 0px;
+        left: 45%;
+        top: 75%;
     }
 
     .item {
@@ -516,6 +512,10 @@ footer {
     .porject-datial-describe img {
         padding-top: 20px;
     }
+    .circle-red {
+        width: 20%;
+        top: 55%;
+    }
 
 }
 
@@ -553,11 +553,11 @@ footer {
     .circle-red {
         width: 30%;
         left: 60%;
-        top: 115%;
+        top: 76%;
     }
 
     .work {
-        bottom: -100px;
+        bottom: 100px;
     }
 
     .item {
