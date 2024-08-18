@@ -586,6 +586,7 @@ footer {
 
     .itembox {
         flex-wrap: wrap;
+        display: flex;
     }
 
     .itembox img {
