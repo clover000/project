@@ -176,9 +176,12 @@ li img {
 
 .itembox {
     display: flex;
-
+    
+    
 }
-
+.itembox > a{
+    width: 33.3%;
+}
 .itembox img {
     padding: 20px;
 
@@ -374,6 +377,7 @@ footer {
 
     .itembox img {
         padding: 30px;
+    
     }
 
     h1 {
@@ -470,8 +474,6 @@ footer {
         width: 80%;
         padding: 20px 0;
     }
-
-
 
     .item .title img {
         height: 40px;
