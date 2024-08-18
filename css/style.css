@@ -613,7 +613,8 @@ footer {
         padding-top: 20px;
     }
     #gotop{
-        right: 20px;
+        right: 10px;
+        width: 50px;
     }
 
 
