@@ -175,7 +175,7 @@ li img {
 
 .itembox {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .itembox img {
@@ -586,7 +586,6 @@ footer {
 
     .itembox {
         flex-wrap: wrap;
-        display: flex;
     }
 
     .itembox img {
