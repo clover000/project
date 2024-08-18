@@ -181,7 +181,7 @@ li img {
 
 .itembox img {
     padding: 20px;
-    width: 350px;
+
 }
 
 a:hover {
@@ -373,7 +373,6 @@ footer {
     }
 
     .itembox img {
-        width: auto;
         padding: 30px;
     }
 
@@ -451,10 +450,6 @@ footer {
         height: 50px;
     }
 
-    .itembox img {
-        width: 270px;
-    }
-
     .pxy60 {
         padding: 40px 80px;
     }
@@ -476,9 +471,7 @@ footer {
         padding: 20px 0;
     }
 
-    .itembox img {
-        width: 260px;
-    }
+
 
     .item .title img {
         height: 40px;
@@ -532,7 +525,6 @@ footer {
     }
 
     .itembox img {
-        width: 186px;
         padding: 10px;
 
     }
@@ -600,7 +592,6 @@ footer {
     }
 
     .itembox img {
-        width: auto;
         padding: 8px;
     }
 
