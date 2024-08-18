@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>HELLO</title>
+</head>
+
+<body>
+  <a href="index.html">
+    <div class="hometop"></div>
+    <span>HOME</span>
+  </a>
+  <a href="">
+    <div id="gotop" style="display: block;">top</div>
+  </a>
+  <section class="project-info-section ">
+    <div class="max-width">
+      <div class="project-title">
+        <h2 class="project-h2">介面設計</h2>
+        <h1 class="project-h1">四季道館賽</h1>
+      </div>
+      <div class="project-info-area">
+        <div class="project-info">
+          <h3 class="project-info-h3">專案角色</h3>
+          <div class="project-info-text">UI 設計師</div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-info-h3">平台</h3>
+          <div class="project-info-text">Web（ 含 RWD 設計）</div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-info-h3">使用工具</h3>
+          <div class="project-info-text">Adobe XD、illustrator</div>
+        </div>
+      </div>
+    </div>
+    <div class="porject-cover">
+      <img src="img/gym-00.jpg" class="project-cover-img ">
+    </div>
+    <div class="max-width">
+      <div class="porject-show">
+        <div class="porject-datial-title">成品展示</div>       
+        <div class="image-container ">
+          <img src="img/phoneshow.jpg" alt="">
+          <div class="img-gymshow">
+            <img class="show" src="img/gymshow-01.jpg" alt="Image 1">
+            <img src="img/gymshow-02.jpg" alt="Image 2">
+            <img src="img/gymshow-03.jpg" alt="Image 3">
+            <img src="img/gymshow-04.jpg" alt="Image 4">
+            <img src="img/gymshow-05.jpg" alt="Image 5">
+            <img src="img/gymshow-06.jpg" alt="Image 6">
+            <img src="img/gymshow-07.jpg" alt="Image 7">
+            <img src="img/gymshow-08.jpg" alt="Image 8">
+          </div>
+        </div>
+      </div>
+      <div class="porject-datial-area">
+        <div class="porject-datial-title">專案背景</div>
+        <div class="porject-datial-describe">
+          <p>四季道館賽是業務系統產生的一個遊戲小活動，目的是透過遊戲化模式及能獲得額外獎勵來激發業務員的行動力，讓業務員衝業績又能獲取獎勵。</p>
+        </div>
+      </div>
+      <div class="porject-datial-area">
+        <div class="porject-datial-title">需求內容</div>
+        <div class="porject-datial-describe">
+          <p>與PM進行需求訪談，初步瞭解此專案的介面、遊戲流程及規則。</p>
+          <img src="img/gym-02.png" alt="">
+        </div>
+      </div>
+      <div class="porject-datial-area">
+        <div class="porject-datial-title">素材繪製</div>
+        <div class="porject-datial-describe">
+          <p>由於是以「對戰遊戲」為主題，視覺設計以宇宙、外太空、火箭為發想，意喻有一飛衝天、業績長紅的意思。</p>
+          <!-- <img src="img/gym-01.png" alt=""> -->
+          <img src="img/gym-03.jpg" alt="">
+        </div>
+      </div>
+
+
+
+  </section>
+
+  <footer></footer>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+
+  $(() => {
+
+    setInterval(() => {
+      let currentShowImg = $('.img-gymshow .show');
+      currentShowImg.toggleClass('show').next().toggleClass('show');
+      if (!currentShowImg.next()[0]) {
+        $('.img-gymshow img:eq(0)').toggleClass('show');
+      }
+    }, 1200);
+
+  });
+
+
+  $(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function () {
+      $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+      return false;
+    });
+
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 200) {
+        $('#gotop').fadeIn();
+      } else {
+        $('#gotop').fadeOut();
+      }
+    });
+  });
+
+</script>
+<script>
+  //一般呼叫
+  $(function () {
+    AOS.init();
+  })
+  //自定參數呼叫
+  $(function () {
+    AOS.init({
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  })
+</script>
+
+</html>

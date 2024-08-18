@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>HELLO</title>
+</head>
+<body>
+    <a href="index.html">
+        <div class="hometop"></div>
+        <span >HOME</span>
+    </a>
+    <a href=""><div id="gotop" style="display: block;">top</div></a>
+    <section class="project-info-section ">
+        <div class="max-width">
+            <div class="project-title">
+                <h1 class="project-h1">動畫影片</h1>
+        </div>   
+        <div class="project-info-area">
+            <div class="project-info">
+                <h3 class="project-info-h3">專案角色</h3>
+                <div class="project-info-text">視覺設計師</div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-info-h3">使用工具</h3>
+                <div class="project-info-text">Adobe illustrator、Photoshop、After Effects</div>
+            </div>
+        </div>  
+        </div>
+        <div class="porject-cover">
+            <img src="img/money-00.jpg" class="project-cover-img ">
+        </div> 
+        <div class="max-width">
+            <div class="porject-show">
+              <div class="porject-datial-area">
+                <div class="porject-datial-title">基金動畫</div>
+                <div class="porject-datial-describe">
+                  <iframe src="https://www.youtube.com/embed/y3zSuoNxAG8?si=cHSUh08QJBFVx0xw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <p>故事發想以打敗通膨怪獸為主軸的小故事，藉由日常生活中最有感的物價上漲的認知來切入主題，想要打敗通膨就需要動起來，並運用淺顯易懂的文字介紹此檔基金的特色。</p>
+                    <img src="img/money.jpg" alt="">
+                </div>
+            </div>   
+            <div class="porject-datial-area">
+              <div class="porject-datial-title">美妝IP動畫</div>
+              <div class="porject-datial-describe">
+                <iframe  src="https://www.youtube.com/embed/8AmjHSY2_xg?si=Q1sY3xVz_3XXvCqS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <p>藍心心是在溫泉裡誕生的，不小心跑到保養品裡想回歸溫泉的懷抱。</p>
+                  <img src="img/makeup.jpg" alt="">
+              </div>
+          </div> 
+            <div class="porject-datial-area">
+              <div class="porject-datial-title">其他</div>
+              <div class="porject-datial-describe">
+                <iframe src="https://www.youtube.com/embed/Tfv9VqGGNeI?si=KkbgsZiV-sCSPzQh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/fX-ty1BGUdw?si=LeQ-Orvv7VopQApA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+          </div>             
+            </div>
+ 
+
+            </div>
+     
+     
+
+    </section>
+
+    
+
+    <footer></footer>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+  $(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function () {
+      $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+      return false;
+    });
+
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 200) {
+        $('#gotop').fadeIn();
+      } else {
+        $('#gotop').fadeOut();
+      }
+    });
+  });
+
+</script>
+<script>
+  //一般呼叫
+  $(function () {
+    AOS.init();
+  })
+  //自定參數呼叫
+  $(function () {
+    AOS.init({
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  })
+</script>
+</html>

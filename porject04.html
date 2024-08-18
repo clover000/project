@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>HELLO</title>
+</head>
+<body>
+    <a href="index.html">
+        <div class="hometop"></div>
+        <span >HOME</span>
+    </a>
+    <a href=""><div id="gotop" style="display: block;">top</div></a>
+    <section class="project-info-section ">
+        <div class="max-width">
+            <div class="project-title">
+                <h2 class="project-h2">RWD / 視覺設計 / 版面規劃</h2>
+                <h1 class="project-h1">出發去哪旅</h1>
+        </div>   
+        <div class="project-info-area">
+            <div class="project-info">
+                <h3 class="project-info-h3">專案角色</h3>
+                <div class="project-info-text">視覺設計師</div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-info-h3">平台</h3>
+                <div class="project-info-text">Web（ 含 RWD 設計）</div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-info-h3">使用工具</h3>
+                <div class="project-info-text">Adobe XD、illustrator</div>
+            </div>
+        </div>  
+        </div>
+        <div class="porject-cover">
+            <img src="img/travel-00.jpg" class="project-cover-img ">
+        </div> 
+        <div class="max-width">
+            <div class="porject-datial-area">
+                <div class="porject-datial-title">專案背景</div>
+                <div class="porject-datial-describe">
+                    <p>針對旅平險而推出的活動，以不同國家的冷知識問答遊戲加抽獎活動做引導，讓使用者勾起挑戰心來遊玩，完成遊戲後也能投保及了解旅平險商品是什麼。</p>
+                </div>
+            </div>
+            <div class="porject-datial-area">
+                <div class="porject-datial-title">需求內容</div>
+                <div class="porject-datial-describe">
+                    <p>與PM進行需求訪談，初步瞭解此專案所要呈現的主視覺、遊戲問答呈現方式及色彩規劃等。</p>
+                </div>
+            </div>
+            <div class="porject-show">
+              <div class="porject-datial-title">成品展示</div>
+              <img src="img/travel-01.png" alt="">
+              <img src="img/travel-02.png" alt="">
+          </div>
+            </div>
+     
+     
+
+    </section>
+
+    
+
+    <footer></footer>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+  $(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function () {
+      $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+      return false;
+    });
+
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 200) {
+        $('#gotop').fadeIn();
+      } else {
+        $('#gotop').fadeOut();
+      }
+    });
+  });
+
+</script>
+<script>
+  //一般呼叫
+  $(function () {
+    AOS.init();
+  })
+  //自定參數呼叫
+  $(function () {
+    AOS.init({
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  })
+</script>
+</html>

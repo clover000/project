@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>HELLO</title>
+</head>
+<body>
+    <a href="index.html">
+        <div class="hometop"></div>
+        <span >HOME</span>
+    </a>
+    <a href=""><div id="gotop" style="display: block;">top</div></a>
+    <section class="project-info-section ">
+        <div class="max-width">
+            <div class="project-title">
+                <h1 class="project-h1">插畫設計</h1>
+        </div>   
+        <div class="project-info-area">
+            <div class="project-info">
+                <h3 class="project-info-h3">專案角色</h3>
+                <div class="project-info-text">插畫師</div>
+            </div>
+            <div class="project-info">
+                <h3 class="project-info-h3">使用工具</h3>
+                <div class="project-info-text">Adobe illustrator</div>
+            </div>
+        </div>  
+        </div>
+        <div class="porject-cover">
+            <img src="img/ip-00.jpg" class="project-cover-img ">
+        </div> 
+        <div class="max-width">
+            <div class="porject-show">
+              <div class="porject-datial-title">人壽相關</div>
+              <img src="img/ip-01.png" alt="">
+              <img src="img/ip-02.png" alt="">
+              <img src="img/ip-03.png" alt="">
+              <img src="img/ip-04.png" alt="">
+
+          </div>
+          <div class="porject-show">
+            <div class="porject-datial-title">其他</div>
+            <img src="img/ip-07.jpg" alt="">
+            <img src="img/ip-08.jpg" alt="">
+            <img src="img/ip-05.jpg" alt="">
+            <img src="img/ip-06.jpg" alt="">
+
+        </div>
+            </div>
+     
+     
+
+    </section>
+
+    
+
+    <footer></footer>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+  $(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function () {
+      $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+      return false;
+    });
+
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 200) {
+        $('#gotop').fadeIn();
+      } else {
+        $('#gotop').fadeOut();
+      }
+    });
+  });
+
+</script>
+<script>
+  //一般呼叫
+  $(function () {
+    AOS.init();
+  })
+  //自定參數呼叫
+  $(function () {
+    AOS.init({
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  })
+</script>
+</html>

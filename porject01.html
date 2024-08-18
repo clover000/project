@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/base.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="js/jquery.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>HELLO</title>
+</head>
+
+<body>
+  <a href="index.html">
+    <div class="hometop"></div>
+    <span>HOME</span>
+  </a>
+  <a href="">
+    <div id="gotop" style="display: block;">top</div>
+  </a>
+  <section class="project-info-section ">
+    <div class="max-width">
+      <div class="project-title">
+        <h2 class="project-h2">介面設計</h2>
+        <h1 class="project-h1">創業建議書</h1>
+      </div>
+      <div class="project-info-area">
+        <div class="project-info">
+          <h3 class="project-info-h3">專案角色</h3>
+          <div class="project-info-text">UI 設計師</div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-info-h3">平台</h3>
+          <div class="project-info-text">Web（ 含 RWD 設計）</div>
+        </div>
+        <div class="project-info">
+          <h3 class="project-info-h3">使用工具</h3>
+          <div class="project-info-text">Adobe XD、illustrator</div>
+        </div>
+      </div>
+    </div>
+    <div class="porject-cover">
+      <img src="img/proposal-00.jpg" class="project-cover-img ">
+    </div>
+    <div class="max-width">
+      <div class="porject-show">
+        <div class="porject-datial-title">成品展示</div>
+        <div class="image-container">
+          <img src="img/show.jpg" alt="">
+          <div class="img-show">
+            <img class="show" src="img/show-01.jpg" alt="Image 1">
+            <img src="img/show-02.jpg" alt="Image 2">
+            <img src="img/show-03.jpg" alt="Image 3">
+            <img src="img/show-04.jpg" alt="Image 4">
+            <img src="img/show-05.jpg" alt="Image 5">
+            <img src="img/show-06.jpg" alt="Image 6">
+            <img src="img/show-07.jpg" alt="Image 7">
+            <img src="img/show-08.jpg" alt="Image 8">
+            <img src="img/show-09.jpg" alt="Image 9">
+            <img src="img/show-10.jpg" alt="Image 10">
+            <img src="img/show-11.jpg" alt="Image 11">
+            <img src="img/show-12.jpg" alt="Image 12">
+            <img src="img/show-13.jpg" alt="Image 13">
+            <img src="img/show-14.jpg" alt="Image 14">
+          </div>
+        </div>
+      </div>
+      <div class="porject-datial-area">
+        <div class="porject-datial-title">專案背景</div>
+        <div class="porject-datial-describe">
+          <p>創業建議書主要是幫助已加入業務同仁各職級晉升收入試算，業務主管面對面輔導，定期晉升目標盤點追蹤使用。</p>
+        </div>
+      </div>
+      <div class="porject-datial-area">
+        <div class="porject-datial-title">需求內容</div>
+        <div class="porject-datial-describe">
+          <p>與PM進行需求訪談，初步瞭解此專案的系統介面、流程、相關專有名詞後，此專案我們歸納總結出三個主要功能，設計俐落直覺的表單填寫及試算等流程，提升同仁們的工作效率。</p>
+          <img src="img/proposal-02.png" alt="">
+        </div>
+      </div>
+      <div class="porject-datial-area">
+        <div class="porject-datial-title">視覺原則</div>
+        <div class="porject-datial-describe">
+          <p>由於創業建議書是以「工作操作系統」為原則，視覺設計在此次專案扮演「幫助使用者快速設定業績目標」的角色，以富邦藍綠色為基底帶入品牌意象，塑造乾淨清爽的空間氛圍。</p>
+          <img src="img/proposal-03.png" alt="">
+        </div>
+      </div>
+
+
+    </div>
+    <div class="porject-datial-area">
+      <img src="img/proposal-04.jpg" alt="">
+    </div>
+    </div>
+
+
+  </section>
+
+
+
+  <footer></footer>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript">
+
+  $(() => {
+
+    setInterval(() => {
+      let currentShowImg = $('.img-show .show');
+      currentShowImg.toggleClass('show').next().toggleClass('show');
+      if (!currentShowImg.next()[0]) {
+        $('.img-show img:eq(0)').toggleClass('show');
+      }
+    }, 1200);
+
+  });
+
+
+  $(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function () {
+      $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+      return false;
+    });
+
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 200) {
+        $('#gotop').fadeIn();
+      } else {
+        $('#gotop').fadeOut();
+      }
+    });
+  });
+
+</script>
+<script>
+  //一般呼叫
+  $(function () {
+    AOS.init();
+  })
+  //自定參數呼叫
+  $(function () {
+    AOS.init({
+      offset: 200,
+      easing: 'ease-in-out'
+    });
+  })
+</script>
+
+</html>
