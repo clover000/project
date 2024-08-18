@@ -394,7 +394,7 @@ footer {
     }
 
     .item {
-        width: 60%;
+        width: 80%;
     }
 
     .mainkv {
@@ -409,6 +409,7 @@ footer {
 @media (max-width: 1200px) {
     .kv {
         width: 80%;
+        height: 360px;
     }
 
     .kvtextbox {
@@ -465,7 +466,7 @@ footer {
     }
 
     .work {
-        bottom: 270px;
+        bottom: 0px;
     }
 
     .item {
@@ -533,7 +534,7 @@ footer {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 440px) {
 
     .kvtextbox {
         left: 0;
@@ -570,7 +571,7 @@ footer {
     }
 
     .work {
-        bottom: 70px;
+        bottom: -100px;
     }
 
     .item {
