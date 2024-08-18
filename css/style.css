@@ -40,7 +40,7 @@ span {
 
 #gotop {
     position: fixed;
-    /* display: none; */
+    display: none;
     bottom: 40px;
     right: 40px;
     z-index: 5;
