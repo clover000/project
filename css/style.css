@@ -152,7 +152,6 @@ li img {
 
 .work {
     position: relative;
-    bottom: 200px;
     top: -100px;
     margin-bottom: -100px;
 }
@@ -182,7 +181,7 @@ li img {
 
 .itembox img {
     padding: 20px;
-    width: 380px;
+    width: 350px;
 }
 
 a:hover {
@@ -404,9 +403,9 @@ footer {
         height: 460px;
     }
     .work{
-        
-        bottom: 170px;
-    }
+        top: -170px;
+        margin-bottom: -170px;
+        }
 
 }
 
@@ -474,7 +473,7 @@ footer {
     }
 
     .itembox img {
-        width: 200px;
+        width: 260px;
         padding: 10px;
     }
 
@@ -527,6 +526,9 @@ footer {
     .work{
         bottom: 200px;
     }
+    .itembox img {
+        width: 200px;
+    }
     
 }
 
@@ -567,7 +569,8 @@ footer {
     }
 
     .work {
-        bottom: 0px;
+        top: -60px;
+        margin-bottom: -60px;
     }
 
     .item {
