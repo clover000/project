@@ -517,22 +517,8 @@ footer {
         padding-top: 20px;
     }
 
-    .img-show img {
-        max-width: 46%;
-        bottom: 140px;
-        left: 27%;
-
-    }
-
 }
 
-@media (max-width: 992px) {
-    .img-show img {
-        bottom: 106px;
-
-
-    }
-}
 
 @media (max-width: 440px) {
 
@@ -606,9 +592,6 @@ footer {
         padding-top: 20px;
     }
 
-    .img-show img {
-        bottom: 60px;
-    }
 
 }
 
@@ -621,8 +604,6 @@ footer {
         font-size: 18px;
     }
 
-    .img-show img {
-        bottom: 46px;
-    }
+
 
 }
