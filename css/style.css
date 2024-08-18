@@ -612,6 +612,9 @@ footer {
     .project-info {
         padding-top: 20px;
     }
+    #gotop{
+        right: 20px;
+    }
 
 
 }
