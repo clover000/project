@@ -401,6 +401,10 @@ footer {
         background-image: url(../img/proposal.jpg);
         height: 460px;
     }
+    .work{
+        
+        bottom: 170px;
+    }
 
 }
 
@@ -449,9 +453,6 @@ footer {
     .pxy60 {
         padding: 40px;
     }
-
-
-
 }
 
 @media (max-width: 1024px) {
@@ -514,11 +515,18 @@ footer {
     }
     .circle-red {
         width: 20%;
-        top: 55%;
+        top: 60%;
+        left: 60%;
     }
 
 }
 
+@media (max-width: 992px) {
+    .work{
+        bottom: 200px;
+    }
+    
+}
 
 @media (max-width: 440px) {
 
@@ -557,7 +565,7 @@ footer {
     }
 
     .work {
-        bottom: 100px;
+        bottom: 0px;
     }
 
     .item {
