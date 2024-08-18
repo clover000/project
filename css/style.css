@@ -456,7 +456,7 @@ footer {
     }
 
     .pxy60 {
-        padding: 40px 80px;
+        padding: 40px 70px;
     }
 }
 
@@ -530,6 +530,13 @@ footer {
     .itembox img {
         padding: 10px;
 
+    }
+    li{
+        display: flex;
+        padding-bottom: 10px;
+    }
+    li img{
+        margin-top: 5px;
     }
 
 }
