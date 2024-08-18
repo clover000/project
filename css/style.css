@@ -177,11 +177,10 @@ li img {
 }
 
 .itembox {
-    display: flex;
-    
+    display: flex;    
     
 }
-.itembox > a{
+.itembox a{
     width: 33.3%;
 }
 .itembox img {
@@ -590,11 +589,14 @@ footer {
         margin-bottom: 20px;
         padding-top: 20px;
     }
-
     .itembox {
-        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        
     }
-
+    .itembox > a{
+        width: 100%;
+    }
     .itembox img {
         padding: 8px;
     }
