@@ -40,7 +40,7 @@ span {
 
 #gotop {
     position: fixed;
-    display: block;
+    display: none;
     bottom: 10vh;
     right: 48vw;
     z-index: 5;
@@ -50,7 +50,6 @@ span {
     color: #ffffff;
     transition: all 0.5s; */
     width: 10vh;
-
 }
 
 
