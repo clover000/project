@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <a href=""><div id="gotop" style="display: block;"><img src="img/gotop.svg"></div></a>
+  <a href=""><div id="gotop" class="fly"><img src="img/gotop.svg"></div></a>
   <div class="container css-line ">      
     <div class="kv">
       <div class="circle-blue"> <img src="img/circle-blue.png" alt=""></div>
@@ -77,10 +77,10 @@
 
     /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
     $(window).scroll(function () {
-      if ($(this).scrollTop() > 200) {
+      if ($(this).scrollTop() > 400) {
         $('#gotop').fadeIn();
       } else {
-        $('#gotop').fadeOut();
+        $('#gotop').fadeOut() ;
       }
     });
   });

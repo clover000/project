@@ -41,15 +41,18 @@ span {
 #gotop {
     position: fixed;
     display: none;
-    bottom: 40px;
-    right: 40px;
-    z-index: 5;
+    bottom: 10vh;
+    right: 48vw;
     /* border-radius: 50px;
     padding: 20px;
     background: linear-gradient(0deg, #f95f5f, #ffbd96);
     color: #ffffff;
     transition: all 0.5s; */
-    width: 70px;
+    width: 10vh;
+
+}
+#gotop > img{
+    display: hidden;
 
 }
 
@@ -538,6 +541,11 @@ footer {
     li img{
         margin-top: 5px;
     }
+    #gotop {
+
+        right: 44vw;
+
+    }
 
 }
 
@@ -619,9 +627,9 @@ footer {
     .project-info {
         padding-top: 20px;
     }
-    #gotop{
-        right: 10px;
-        width: 50px;
+    #gotop {
+        width: 15vw;
+        right: 42vw;
     }
 
 
