@@ -17,7 +17,6 @@
     <div class="hometop"></div>
     <span>HOME</span>
   </a>
-  <a href=""><div id="gotop" style="display: block;"><img src="img/gotop.svg"></div></a>
   <section class="project-info-section ">
     <div class="max-width">
       <div class="project-title">
@@ -96,7 +95,7 @@
 
   </section>
 
-
+  
 
   <footer></footer>
 </body>
@@ -124,14 +123,14 @@
       return false;
     });
 
-    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 200) {
-        $('#gotop').fadeIn();
-      } else {
-        $('#gotop').fadeOut();
-      }
-    });
+    // /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    // $(window).scroll(function () {
+    //   if ($(this).scrollTop() > 200) {
+    //     $('#gotop').fadeIn();
+    //   } else {
+    //     $('#gotop').fadeOut();
+    //   }
+    // });
   });
 
 </script>
