@@ -12,7 +12,7 @@
 </head>
 
 <body>
-  <a href=""><div id="gotop" class=""><img src="img/gotop.svg"></div></a>
+  
   <div class="container css-line ">      
     <div class="kv">
       <div class="circle-blue"> <img src="img/circle-blue.png" alt=""></div>
@@ -57,6 +57,7 @@
       </div>
       <img src="img/workbgdown.svg" alt="">
     </div>
+    <a href=""><div id="gotop" ><img src="img/gotop.svg" class="arrow"></div></a>
     <footer></footer>
     </div>
    
@@ -70,19 +71,19 @@
 <script type="text/javascript">
   $(function () {
     /* 按下GoTop按鈕時的事件 */
-    $('#gotop img').click(function () {
+    $('#gotop').click(function () {
       $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
       return false;
     });
 
-    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
-    $(window).scroll(function () {
-      if ($(this).scrollTop() > 400) {
-        $('#gotop ').fadeIn();
-      } else {
-        $('#gotop ').fadeOut() ;
-      }
-    });
+    // /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    // $(window).scroll(function () {
+    //   if ($(this).scrollTop() > 0) {
+    //     $('#gotop ').fadeIn();
+    //   } else {
+    //     $('#gotop ').fadeOut() ;
+    //   }
+    // });
   });
 
 </script>
