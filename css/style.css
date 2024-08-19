@@ -546,7 +546,7 @@ footer {
     .arrow{
         width: 8vw;
         left: 47vw;
-        top: 10vh;
+        top: 4vh;
     }
     
 
@@ -631,9 +631,8 @@ footer {
         padding-top: 20px;
     }
     .arrow {
-        width: 20vw;
-        left: 40vw;
-        top: 10vh;
+        width: 12vw;
+        left: 45vw;
     }
 
 
