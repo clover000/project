@@ -182,7 +182,8 @@ li img {
 }
 
 .itembox {
-    display: flex;    
+    display: flex; 
+    flex-wrap: wrap;   
     
 }
 .itembox a{
@@ -609,11 +610,10 @@ footer {
     }
     .itembox {
         display: flex;
-        flex-direction: column;
-        
+        flex-wrap: wrap;
     }
     .itembox > a{
-        width: 100%;
+        width: 50%;
     }
     .itembox img {
         padding: 8px;
