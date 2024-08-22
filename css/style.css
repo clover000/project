@@ -465,6 +465,9 @@ footer {
     .pxy60 {
         padding: 40px 70px;
     }
+    .max-width {
+        max-width: 80%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -494,10 +497,6 @@ footer {
 
     .footerbox {
         margin-top: -275px;
-    }
-
-    .max-width {
-        width: 80%;
     }
 
     .porject-datial-title {
