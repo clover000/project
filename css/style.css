@@ -78,7 +78,7 @@ span {
     position: absolute;
     right: 20%;
     top: 500px;
-    width: 15%;
+    width: 12%;
     filter: blur(10px);
 
 }
@@ -573,8 +573,8 @@ iframe {
     }
 
     .fly04 {
-        right: 8%;
-        top: 450px;
+        right: 10%;
+        top: 490px;
     }
     .area {
         max-width: 90%;
@@ -587,6 +587,15 @@ iframe {
     }
     #areawork .areabox li:nth-of-type(2) {
         margin-top: 60px;
+    }
+    .project-title ,.project-info-area,.porject-show{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .porject-datial-area{
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 8%;
     }
 }
 @media (max-width: 1024px) {
@@ -656,15 +665,7 @@ iframe {
         border-radius: 40px 0 10px;
 
     }
-    .project-title ,.project-info-area,.porject-show{
-        width: 90%;
-        margin: 0 auto;
-    }
-    .porject-datial-area{
-        width: 90%;
-        margin: 0 auto;
-        padding-top: 8%;
-    }
+
 
 
 }
