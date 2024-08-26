@@ -4,100 +4,158 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/base.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
   <script src="js/jquery.min.js"></script>
   <title>HELLO</title>
 </head>
 
+
 <body>
-  <div class="container css-line ">
-    <div class="kv" >
-      <div class="circle-blue"> <img src="img/circle-blue.png" alt="" data-aos="fade-down"></div>
-      <div class="circle-blue2 fly"> <img src="img/circle-blue2.png" alt="" data-aos="fade-down" data-aos-delay="200"></div>
-      <div class="circle-red fly2"> <img src="img/circle-red.png" alt="" data-aos="fade-up" data-aos-delay="200"></div>
-      <div class="kvtextbox pxy60 "  data-aos="fade-right" >
-        <h1 class="pb10">我是一名視覺設計師</h1>
-        <ul>
-          <li><img src="img/pen.svg" alt="">參與過投信、保險及電商等設計專案</li>
-          <li><img src="img/pen.svg" alt="">擅長網頁視覺設計、數位行銷素材、微動畫</li>
-          <li><img src="img/pen.svg" alt="">注重時程管理、追求視覺美感及使用者最佳體驗</li>
-          <li><img src="img/pen.svg" alt="">近年接觸UI/UX，持續學習中</li>
-        </ul>
-      </div>
-    </div>
-    <div class="work">
-      <img src="img/workbgup.svg" alt="">
-      <div class="workbg">
-        <div class="item">
-          <div class="title" data-aos="fade-right"><img src="img/other.svg" alt=""></div>
-          <div class="itembox">
-            <a href="porject03.html"><img src="img/dividend.png" alt="" data-aos="fade-up" data-aos-delay="200"></a>
-            <a href="porject04.html"><img src="img/travel.png" alt="" data-aos="fade-up" data-aos-delay="300"></a>
-            <a href="porject05.html"><img src="img/deer.png" alt="" data-aos="fade-up" data-aos-delay="400"></a>
-            <a href="porject06.html"><img src="img/work06.png" alt="" data-aos="fade-up" data-aos-delay="100"></a>
-            <a href="porject07.html"><img src="img/work07.png" alt="" data-aos="fade-up" data-aos-delay="200"></a>
-            <a href="porject08.html"><img src="img/work08.png" alt="" data-aos="fade-up" data-aos-delay="300"></a>
+
+  <div class="container">
+    <div class="fly01 float1"><img src="img/fly01.svg" alt=""> </div>
+    <div class="fly02 "><img src="img/fly02.svg" alt=""> </div>
+    <div class="fly03 float2"><img src="img/fly03.svg" alt=""> </div>
+    <div class="fly04 float3"><img src="img/fly04.svg" alt=""> </div>
+    <section class="wrapper css-line">
+      <div class="kvbox">
+        <div class="kvtext">
+          <p>哈囉!</p>
+          <div class="text-span">
+            <p>我是一名視覺設計師</p>
+            <span><img src="img/pen.svg" alt="">擅長視覺設計、廣宣行銷設計</span>
+            <span><img src="img/pen.svg" alt="">注重時程管理，追求視覺美感</span>
+            <span><img src="img/pen.svg" alt="">近年接觸UI/UX，持續學習中</span>
           </div>
-        </div>
-        <div class="leftcircle"> <img src="img/leftcircle.svg" alt=""></div>
-        <div class="rightcircle"> <img src="img/rightcircle.svg" alt=""></div>
-        <div class="item">
-          <div class="title" data-aos="fade-right" data-aos-delay="300"><img src="img/ui.svg" alt=""></div>
-          <div class="itembox">
-            <a href="porject01.html"><img src="img/proposal.png" alt="" data-aos="fade-up" data-aos-delay="100"></a>
-            <a href="porject02.html"><img src="img/gym.png" alt="" data-aos="fade-up" data-aos-delay="200"></a>
+          <div class="kvpic">
+            <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+              type="module"></script>
+            <dotlottie-player src="https://lottie.host/585eef57-ddd2-45a6-9ee4-3e5e671ef32f/vJnMLDx472.json"
+              background="transparent" speed="1" loop autoplay></dotlottie-player>
           </div>
         </div>
       </div>
-      <img src="img/workbgdown.svg" alt="">
-    </div>
-    <a href="">
-      <div id="gotop"><img src="img/gotop.svg" class="arrow fly"></div>
-    </a>
-    <footer></footer>
-  </div>
+      <div class="area" id="areawork">        
+        <div class="areabox" >
+          <p>WORK</p>
+          <ul>
+            <li>
+              <a href="porject01.html">
+                <div class="work">
+                  <img src="img/proposal.jpg" alt="">
+                  <div class="worktext">
+                    <p>創業建議書</p>
+                    <span>#UI | #RWD# | #客製化</span>
+                  </div>                 
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="porject02.html">
+                <div class="work">
+                  <img src="img/gym.jpg" alt="">
+                  <div class="worktext">
+                    <p>四季道館賽</p>
+                    <span>#UI | #RWD | #小遊戲</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <a href="porject03.html">
+              <li>
+                <div class="work">
+                  <img src="img/dividend.jpg" alt="">
+                  <div class="worktext">
+                    <p>分紅保單商品</p>
+                    <span>#RWD | #網頁視覺設計 </span>
+                  </div>
+                </div>
+              </li>
+            </a>
+          </ul>
+          <ul>
+            <li>
+              <a href="porject04.html">
+                <div class="work">
+                  <img src="img/travel.jpg" alt="">
+                  <div class="worktext">
+                    <p>出發去哪旅</p>
+                    <span>#RWD | #網頁視覺設計</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="porject05.html">
+                <div class="work">
+                  <img src="img/deer.jpg" alt="">
+                  <div class="worktext">
+                    <p>放個鹿會員招募</p>
+                    <span>#RWD | #網頁視覺設計</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <a href="porject06.html">
+              <li>
+                <div class="work">
+                  <img src="img/work06.jpg" alt="">
+                  <div class="worktext">
+                    <p>更多網頁視覺設計</p>
+                    <span>#RWD# | #網頁視覺設計</span>
+                  </div>
+                </div>
+              </li>
+            </a>
+          </ul>
+          <ul>
+            <li>
+              <a href="porject07.html">
+                <div class="work">
+                  <img src="img/work07.jpg" alt="">
+                  <div class="worktext">
+                    <p>廣宣行銷設計</p>
+                    <span>#視覺設計</span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="porject08.html">
+                <div class="work">
+                  <img src="img/work08.jpg" alt="">
+                  <div class="worktext">
+                    <p>動畫影音</p>
+                    <span>#動態設計  </span>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <a href="porject09.html">
+              <li>
+                <div class="work">
+                  <img src="img/ip.jpg" alt="">
+                  <div class="worktext">
+                    <p>繪圖設計</p>
+                    <span>#IP角色 | #插圖 </span>
+                  </div>
+                </div>
+              </li>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+
+    </section>
 
   </div>
-
-
-
-
+  <footer></footer>
 </body>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script type="text/javascript">
-  $(function () {
-    /* 按下GoTop按鈕時的事件 */
-    $('#gotop').click(function () {
-      $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
-      return false;
-    });
-
-    // /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
-    // $(window).scroll(function () {
-    //   if ($(this).scrollTop() > 0) {
-    //     $('#gotop ').fadeIn();
-    //   } else {
-    //     $('#gotop ').fadeOut() ;
-    //   }
-    // });
-  });
-  
-
-</script>
-<script>
-  //一般呼叫
-  $(function () {
-    AOS.init();
-  })
-  //自定參數呼叫
-  $(function () {
-    AOS.init({
-      offset: 200,
-      easing: 'ease-in-out'
-    });
-  })
-</script>
 
 </html>
