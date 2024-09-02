@@ -194,16 +194,16 @@ span {
 
 .work:hover {
     border-radius: 30px;
-    border: 10px solid #ffb514;
+    border: 8px solid #ffb514;
     margin: 10px;
     position: relative;
 }
 
 .work:hover::after {
     content: "";
-    width: 80px;
-    height: 80px;
-    border-radius: 50px 0 20px 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 16px 0 20px 0;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -583,7 +583,7 @@ iframe {
         padding: 10px 20px 30px;
     }
     .worktext >p{
-        font-size: 24px;
+        font-size: 22px;
     }
     /* #areawork .areabox li:nth-of-type(2) {
         margin-top: 60px;
