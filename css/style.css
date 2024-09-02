@@ -26,7 +26,7 @@ img {
 }
 
 p {
-    font-size: 30px;
+    font-size:24px;
     font-weight: 600;
 }
 
@@ -154,7 +154,7 @@ span {
 
 .areabox ul {
     display: flex;
-    margin-top: 100px;
+    /* margin-top: 100px; */
 
 }
 
@@ -169,7 +169,7 @@ span {
 .work {
     background-color: #ffffff;
     box-shadow: 10px 10px 20px #c9c9c9;
-    margin: 40px;
+    margin: 24px;
     border-radius: 20px;
 
 }
@@ -213,10 +213,10 @@ span {
 
 }
 
-#areawork .areabox li:nth-of-type(2) {
+/* #areawork .areabox li:nth-of-type(2) {
     margin-top: 100px;
 
-}
+} */
 
 #gotop {
     bottom: 10vw;
@@ -583,11 +583,11 @@ iframe {
         padding: 10px 20px 30px;
     }
     .worktext >p{
-        font-size: 26px;
+        font-size: 24px;
     }
-    #areawork .areabox li:nth-of-type(2) {
+    /* #areawork .areabox li:nth-of-type(2) {
         margin-top: 60px;
-    }
+    } */
     .project-title ,.project-info-area,.porject-show{
         width: 90%;
         margin: 0 auto;
@@ -630,7 +630,7 @@ iframe {
     }
 
     .areabox {
-        width: 90%;
+        /* width: 90%; */
         margin: 0 auto;
         padding-top: 60px;
     }
@@ -638,21 +638,24 @@ iframe {
     .areabox ul {
         margin-top: 0px;
     }
-
+/* 
     #areawork .areabox li:nth-of-type(2) {
         margin-top: 50px;
-    }
+    } */
 
     .work {
-        margin: 30px;
+        margin: 20px;
     }
 
     .worktext {
-        padding: 10px 20px 20px;
+        padding: 10px;
     }
 
     .worktext>p {
-        font-size: 20px;
+        font-size: 18px;
+    }
+    .worktext>span {
+        font-size: 12px;
     }
     .work:hover{
         border: 6px solid #ffb514;
@@ -724,7 +727,7 @@ iframe {
     }
 
     .work {
-        margin: 16px;
+        margin: 8px;
     }
 
     .areabox ul {
@@ -798,10 +801,18 @@ iframe {
         display: flex;
         flex-direction: column;
     }
-
-    #areawork .areabox li:nth-of-type(2) {
-        margin-top: 0px;
+    .worktext {
+        padding: 10px 20px 20px;
     }
+    .worktext>p {
+        font-size: 22px;
+    }
+    .worktext>span {
+        font-size: 16px;
+    }
+    /* #areawork .areabox li:nth-of-type(2) {
+        margin-top: 0px;
+    } */
     .project-info-area {
         flex-direction: column;
     }
