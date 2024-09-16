@@ -632,11 +632,11 @@ iframe {
     .areabox {
         /* width: 90%; */
         margin: 0 auto;
-        padding-top: 60px;
+        padding-top: 0px;
     }
 
     .areabox ul {
-        margin-top: 0px;
+        margin-top: 20px;
     }
 /* 
     #areawork .areabox li:nth-of-type(2) {
@@ -663,9 +663,9 @@ iframe {
     }
     .work:hover::after {
         content: "";
-        width: 60px;
-        height: 60px;
-        border-radius: 40px 0 10px;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px 0 10px;
 
     }
 
@@ -754,9 +754,9 @@ iframe {
     }
     .work:hover::after {
         content: "";
-        width: 40px;
-        height: 40px;
-        border-radius: 24px 0 10px;
+        width: 24px;
+        height: 24px;
+        border-radius: 12px 0 10px;
 
     }
 
