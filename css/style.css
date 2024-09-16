@@ -142,7 +142,7 @@ span {
 }
 
 .areabox {
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .areabox>p {
@@ -154,7 +154,7 @@ span {
 
 .areabox ul {
     display: flex;
-    /* margin-top: 100px; */
+    margin-top: 40px;
 
 }
 
@@ -551,9 +551,7 @@ iframe {
     .wrapper {
         padding: 100px 0;
     }
-    .areabox {
-        margin-top: 60px;
-    }
+
     .areabox ul {
         margin-top: 0px;
     }
